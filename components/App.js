@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 
+import TextInput from './TextInput';
+
 export default class App extends Component {
     render() {
-        return <div>
-            <h1>Works!!!!!!!</h1>
-        </div>
+        return (
+            <div>
+                <TextInput />
+            </div>
+        )
     }
 }
 
