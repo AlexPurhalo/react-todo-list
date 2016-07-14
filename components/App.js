@@ -16,7 +16,7 @@ class App extends Component {
                 <h1>Todo List</h1>
                 <UserInfo
                     user={this.props.user}
-                    createNewUserId={this.props.actions.createNewUserId}/>
+                    actions={this.props.actions}/>
                 <TodoInput
                     addTodo={this.props.actions.addTodo} />
                 <TodoList
